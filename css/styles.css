@@ -10,6 +10,8 @@ body {
     flex-direction: row-reverse;
 }
 
+
+/* ---------Main-content--------- */
 .main-content {
     padding-left: 88px;
     padding-top: 80px;
@@ -19,3 +21,101 @@ body {
 }
 
 
+/* ----------Sidebar------------ */
+.sidebar {
+    background: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* -----Contacts------- */
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2979ff;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+/* ----Tech Skills------ */
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-titl {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 20px;
+}
+.skills-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+/* -- Soft Skills --- */
+
+.soft-titl {
+    font-weight: 700;
+    line-height: normal;
+    font-size: 22px;
+    color: #161d2a;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.soft-list {
+    padding-left: 20px;
+}
+
+.soft-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}

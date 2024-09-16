@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <title>My resume</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,14 +13,14 @@
     </head>
     <body>
         <!-- Wrapper -->
-        <di class="wrapper">
+        <div class="wrapper">
 
             <!-- Main content -->
             <div class="main-content">
 
                 <!-- My info -->
                 <div>
-                    <h3>Front-End Developer</h3>
+                    <h2>Front-End Developer</h2>
                     <h1>Inna Kvitka</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,7 +32,7 @@
 
                 <!-- My projects -->
                 <div>
-                    <h2>Projects</h2>
+                    <h3>Projects</h3>
                     <ol>
                         <li class="project-item">
                             <a href="https://hellen.p.goit.global/" target="_blank">
@@ -60,14 +60,14 @@
 
                 <!-- Work experience -->
                 <div>
-                    <h2>Work Experience</h2>
+                    <h3>Work Experience</h3>
 
                     <!-- Country 1 -->
                     <div>
-                        <h3>Teacher in kindergarten #8 </h3>
+                        <h4>Teacher in kindergarten #8 </h4>
                         <p>June 2012 - October 2013 |   Ukraine</p>
+                        <h5>Responsibilities</h5>
                         <ul>
-                            <h4>Responsibilities</h4>
                             <li>
                                 <p>
                                     Monitoring compliance with the daily routine, organizing meals, walks, and naps.
@@ -99,10 +99,10 @@
 
                     <!-- Country 2 -->
                     <div>
-                        <h3>Pedagogue-organizer</h3>
+                        <h4>Pedagogue-organizer</h4>
                         <p>October 2013 - September 2014  |   Ukraine</p>
+                        <h5>Responsibilities</h5>
                         <ul>
-                            <h4>Responsibilities</h4>
                             <li>
                                 <p>
                                     Creating a favorable educational environment and c
@@ -125,10 +125,10 @@
 
                     <!-- Country 3 -->
                     <div>
-                        <h3>Biology and Chemistry Teacher</h3>
+                        <h4>Biology and Chemistry Teacher</h4>
                         <p>September 2014 - December 2023   |   Ukraine</p>
+                        <h5>Responsibilities</h5>
                         <ul>
-                            <h4>Responsibilities</h4>
                             <li>
                                 <p>
                                     Drawing up curriculum and lesson and thematic planning of classes.
@@ -166,7 +166,7 @@
                 </div>
                 <!-- Education -->
                 <div>
-                    <h2>Education</h2>
+                    <h3>Education</h3>
 
                     <p>Luhansk National University</p>
                     <p>Primary school teacher</p>
@@ -183,58 +183,52 @@
             </div>
 
             <!-- Sidebar -->
-            <aside>
+            <aside class="sidebar">
                 <img 
-                    src="img/Frame 1.jpg" 
+                    src="img/my-logo.jpg" 
                     alt="my photo" 
                     width="370" 
                     height="370"
                 >
-                <!-- Contacts -->
-                <div>
-                    <h2>Contacts</h2>
-                    <p>C: <a href="tel:+37125135100">+37125135100</a></p>
-                    <p>E: <a href="malto:isatsana27@gmail.com">isatsana27@gmail.com</a></p>  
-                </div>
-
-                <!-- Tech Skills -->
-                <div>
-                    <h2>Tech Skills</h2>
-                    <ul>
-                        <li>
-                            <p>HTML5</p>
-                        </li>
-                        <li>
-                            <p>CSS3</p>
-                        </li>
-                        <li>
-                            <p>GIT</p>
-                        </li>
-                        <li>
-                            <p>WebPack</p>
-                        </li>
-                        <li>
-                            <p>JavaScript</p>
-                        </li>
-                        <li>
-                            <p>React.js</p>
-                        </li>
-                        <li>
-                            <p>Node.js</p>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Soft Skills -->
-                <div>
-                    <h2>Soft Skills</h2>
-                    <ul>
-                        <li>Scrum</li>
-                        <li>Agile</li>
-                        <li>GTD</li>
-                        <li>Teamwork</li>
-                    </ul>
+                <div class="sidebar-content">
+                        <!-- Contacts -->
+                        <div class="contacts-container">
+                            <h3 class="contacts-title">Contacts</h3>
+                            <p class="contacts-item">
+                                <span class="contacts-type">C:</span> 
+                                <a class="contacts-link" href="tel:+37125135100">+37125135100</a>
+                            </p>
+                            <p class="contacts-item">
+                                <span class="contacts-type">E:</span> 
+                                <a class="contacts-link" href="malto:isatsana27@gmail.com">isatsana27@gmail.com</a>
+                            </p>  
+                        </div>
+        
+                        <!-- Tech Skills -->
+                        <div class="skills-container">
+                            <h3 class="skills-titl">Tech Skills</h3>
+                            <ul class="skills-list">
+                                <li class="skills-list-item">HTML5</li>
+                                <li class="skills-list-item">CSS3</li>
+                                <li class="skills-list-item">GIT</li>
+                                <li class="skills-list-item">WebPack</li>
+                                <li class="skills-list-item">JavaScript</li>
+                                <li class="skills-list-item">React.js</li>
+                                <li class="skills-list-item">Node.js</li>
+                            </ul>
+                        </div>
+                        <!-- Soft Skills -->
+                        <div class="soft-container">
+                            <h3 class="soft-titl">Soft Skills</h3>
+                            <ul class="soft-list">
+                                <li class="soft-list-item">Scrum</li>
+                                <li class="soft-list-item">Agile</li>
+                                <li class="soft-list-item">GTD</li>
+                                <li class="soft-list-item">Teamwork</li>
+                            </ul>
+                        </div>
                 </div>
             </aside>
-        </di>
+        </div>
     </body>
 </html>
