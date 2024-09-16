@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>My resume</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+        rel="stylesheet"
+        />
 
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <!-- Wrapper -->
-        <div class="wrapper">
-
+        <div class="wrapper" >
             <!-- Main content -->
             <div class="main-content">
-
                 <!-- My info -->
-                <div>
-                    <h2>Front-End Developer</h2>
-                    <h1>Inna Kvitka</h1>
-                    <p>
+                <div class="my-info">
+                    <h2 class="my-profession">Front-End Developer</h2>
+                    <h1 class="my-name">Inna Kvitka</h1>
+                    <p class="my-descr">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                         ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -31,202 +32,205 @@
                 </div>
 
                 <!-- My projects -->
-                <div>
-                    <h3>Projects</h3>
-                    <ol>
-                        <li class="project-item">
-                            <a href="https://hellen.p.goit.global/" target="_blank">
+                <div class="my-projects-container">
+                    <h3 class="my-projects-title">Projects</h3>
+                    <ol class="my-projects-list">
+                        <li class="my-project-item">
+                            <a
+                                class="my-project-item-link"
+                                href="https://hellen.p.goit.global/"
+                                target="_blank"
+                            >
                                 https://hellen.p.goit.global/
                             </a>
-                            ....................
-                            [ HTML5, CSS3 ]
+                            <span class="my-project-item-tech">
+                                ........................ [ HTML5, CSS3 ]
+                            </span>
                         </li>
-                        <li>
-                            <a href="https://cryptohub.p.goit.global/" target="_blank">
+                        <li class="my-project-item">
+                            <a
+                                class="my-project-item-link"
+                                href="https://cryptohub.p.goit.global/"
+                                target="_blank"
+                            >
                                 https://cryptohub.p.goit.global/
                             </a>
-                            ..............
-                            [ JavaScript ]
+                            <span class="my-project-item-tech">
+                                .............. [ JavaScript ]
+                            </span>
                         </li>
-                        <li>
-                            <a href="https://kidslike.p.goit.global/" target="_blank">
+                        <li class="my-project-item">
+                            <a
+                                class="my-project-item-link"
+                                href="https://kidslike.p.goit.global/"
+                                target="_blank"
+                            >
                                 https://kidslike.p.goit.global/
                             </a>
-                            .................
-                            [ React.js, Node.js ]
+                            <span class="my-project-item-tech">
+                                ..................... [ React.js, Node.js ]
+                            </span>
                         </li>
                     </ol>
                 </div>
 
                 <!-- Work experience -->
-                <div>
-                    <h3>Work Experience</h3>
-
+                <div class="work-experience">
+                    <h3 class="work-experience-title">Work Experience</h3>
                     <!-- Country 1 -->
-                    <div>
-                        <h4>Teacher in kindergarten #8 </h4>
-                        <p>June 2012 - October 2013 |   Ukraine</p>
-                        <h5>Responsibilities</h5>
-                        <ul>
-                            <li>
+                    <div class="work-experience-container">
+                        <h4 class="work-experience-company">Teacher <span  class="company-name">Kindergarten №8</span></h4>
+                        <p class="work-experience-period">June 2012 - October 2013 <span class="work-experience-period-separator">|</span> Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Monitoring compliance with the daily routine, organizing meals, walks, and naps.
+                                Monitoring compliance with the daily routine, organizing
+                                meals, walks, and naps.
                                 </p>
                             </li>
-                            <li>
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Conducting educational and training sessions,
-                                    organization of children's leisure, holidays and additional developmental activities.
+                                Conducting educational and training sessions, organization of
+                                children's leisure, holidays and additional developmental
+                                activities.
                                 </p>
                             </li>
-                            <li>
-                                <p>
-                                    Creation of a favorable moral and psychological climate.
-                                </p>
+                            <li class="work-experience-duties-item">
+                                <p>Creation of a favorable moral and psychological climate.</p>
                             </li>
-                            <li>
-                                <p>
-                                    Helping children communicate with each other and adults.
-                                </p>
+                            <li class="work-experience-duties-item">
+                                <p>Helping children communicate with each other and adults.</p>
                             </li>
-                            <li>
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Participation in teacher councils and methodological associations, maintaining internal documentation.
+                                Participation in teacher councils and methodological
+                                associations, maintaining internal documentation.
                                 </p>
                             </li>
                         </ul>
                     </div>
-
                     <!-- Country 2 -->
-                    <div>
-                        <h4>Pedagogue-organizer</h4>
-                        <p>October 2013 - September 2014  |   Ukraine</p>
-                        <h5>Responsibilities</h5>
-                        <ul>
-                            <li>
+                    <div class="work-experience-container">
+                        <h4 class="work-experience-company">Pedagogue-organizer <span class="company-name">Verkhnyo Pokrovska School</span></h4>
+                        <p class="work-experience-period">October 2013 - September 2014 <span class="work-experience-period-separator">|</span> Ukraine</p>
+                        <ul class="work-experience-duties-list">
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Creating a favorable educational environment and c
-                                    onditions for comprehensive development for each student .
+                                Creating a favorable educational environment and c onditions
+                                for comprehensive development for each student .
                                 </p>
                             </li>
-                            <li>
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Creating conditions for the comprehensive development of students.
+                                Creating conditions for the comprehensive development of
+                                students.
                                 </p>
                             </li>
-                            <li>
+                            <li class="work-experience-duties-item">
                                 <p>
-                                    Close interaction with students, colleagues and parents, 
-                                    as well as with various educational and public organizations. 
+                                Close interaction with students, colleagues and parents, as
+                                well as with various educational and public organizations.
                                 </p>
                             </li>
                         </ul>
                     </div>
-
                     <!-- Country 3 -->
-                    <div>
-                        <h4>Biology and Chemistry Teacher</h4>
-                        <p>September 2014 - December 2023   |   Ukraine</p>
-                        <h5>Responsibilities</h5>
-                        <ul>
-                            <li>
-                                <p>
-                                    Drawing up curriculum and lesson and thematic planning of classes.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
+                    <div class="work-experience-container">
+                            <h4 class="work-experience-company">Biology and Chemistry Teacher <span class="company-name">Verkhnyo Pokrovska School</span></h4>
+                            <p class="work-experience-period">September 2014 - December 2023 <span class="work-experience-period-separator">|</span> Ukraine</p>
+
+                            <ul class="work-experience-duties-list">
+                                <li class="work-experience-duties-item">
+                                    <p>
+                                    Drawing up curriculum and lesson and thematic planning of
+                                    classes.
+                                    </p>
+                                </li>
+                                <li class="work-experience-duties-item">
+                                    <p>
                                     Preparation and conducting theoretical and practical lessons.
-
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Conducting test activities and assessing students' knowledge. 
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Participation in class meetings and the work of the pedagogical council.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Carrying out extracurricular thematic events.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Completing documentation and reporting.
-                                </p>
-                            </li>
-
-                        </ul>
+                                    </p>
+                                </li>
+                                <li class="work-experience-duties-item">
+                                    <p>
+                                    Conducting test activities and assessing students' knowledge.
+                                    </p>
+                                </li>
+                                <li class="work-experience-duties-item">
+                                    <p>
+                                    Participation in class meetings and the work of the
+                                    pedagogical council.
+                                    </p>
+                                </li>
+                                <li class="work-experience-duties-item">
+                                    <p>Carrying out extracurricular thematic events.</p>
+                                </li>
+                                <li class="work-experience-duties-item">
+                                    <p>Completing documentation and reporting.</p>
+                                </li>
+                            </ul>
                     </div>
                 </div>
                 <!-- Education -->
-                <div>
-                    <h3>Education</h3>
+                <div class="education">
+                    <h3 class="education-title">Education</h3>
 
-                    <p>Luhansk National University</p>
-                    <p>Primary school teacher</p>
-                    <p>September 2008 - June 2013</p>
+                    <p class="education-company">Luhansk National University</p>
+                    <p class="education-profession">Primary school teacher</p>
+                    <p class="education-period">September 2008 - June 2013 <span class="work-experience-period-separator">|</span> Ukraine</p>
 
-                    <p>Luhansk National University</p>
-                    <p>Biology teacher</p>
-                    <p>September 2016 - January 2018   |   Ukraine</p>
+                    <p class="education-company">Luhansk National University</p>
+                    <p class="education-profession">Biology teacher</p>
+                    <p class="education-period">September 2016 - January 2018 <span class="work-experience-period-separator">|</span> Ukraine</p>
 
-                    <p>ITGlobal Group OU</p>
-                    <p>FullStack Developer</p>
-                    <p>December 2023 - October 2024</p>
+                    <p class="education-company">ITGlobal Group OU</p>
+                    <p class="education-profession">FullStack Developer</p>
+                    <p class="education-period">December 2023 - October 2024 </p>
                 </div>
             </div>
 
             <!-- Sidebar -->
             <aside class="sidebar">
-                <img 
-                    src="img/my-logo.jpg" 
-                    alt="my photo" 
-                    width="370" 
-                    height="370"
-                >
+                <img src="img/my-logo.jpg" alt="my photo" width="370" height="370" />
                 <div class="sidebar-content">
-                        <!-- Contacts -->
-                        <div class="contacts-container">
-                            <h3 class="contacts-title">Contacts</h3>
-                            <p class="contacts-item">
-                                <span class="contacts-type">C:</span> 
-                                <a class="contacts-link" href="tel:+37125135100">+37125135100</a>
-                            </p>
-                            <p class="contacts-item">
-                                <span class="contacts-type">E:</span> 
-                                <a class="contacts-link" href="malto:isatsana27@gmail.com">isatsana27@gmail.com</a>
-                            </p>  
-                        </div>
-        
-                        <!-- Tech Skills -->
-                        <div class="skills-container">
-                            <h3 class="skills-titl">Tech Skills</h3>
-                            <ul class="skills-list">
-                                <li class="skills-list-item">HTML5</li>
-                                <li class="skills-list-item">CSS3</li>
-                                <li class="skills-list-item">GIT</li>
-                                <li class="skills-list-item">WebPack</li>
-                                <li class="skills-list-item">JavaScript</li>
-                                <li class="skills-list-item">React.js</li>
-                                <li class="skills-list-item">Node.js</li>
-                            </ul>
-                        </div>
-                        <!-- Soft Skills -->
-                        <div class="soft-container">
-                            <h3 class="soft-titl">Soft Skills</h3>
-                            <ul class="soft-list">
-                                <li class="soft-list-item">Scrum</li>
-                                <li class="soft-list-item">Agile</li>
-                                <li class="soft-list-item">GTD</li>
-                                <li class="soft-list-item">Teamwork</li>
-                            </ul>
-                        </div>
+                    <!-- Contacts -->
+                    <div class="contacts-container">
+                        <h3 class="contacts-title">Contacts</h3>
+                        <p class="contacts-item">
+                            <span class="contacts-type">C:</span>
+                            <a class="contacts-link" href="tel:+37125135100">+37125135100</a>
+                        </p>
+                        <p class="contacts-item">
+                            <span class="contacts-type">E:</span>
+                            <a class="contacts-link" href="malto:isatsana27@gmail.com"
+                                >isatsana27@gmail.com</a
+                            >
+                        </p>
+                    </div>
+
+                    <!-- Tech Skills -->
+                    <div class="skills-container">
+                        <h3 class="skills-titl">Tech Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">HTML5</li>
+                            <li class="skills-list-item">CSS3</li>
+                            <li class="skills-list-item">GIT</li>
+                            <li class="skills-list-item">WebPack</li>
+                            <li class="skills-list-item">JavaScript</li>
+                            <li class="skills-list-item">React.js</li>
+                            <li class="skills-list-item">Node.js</li>
+                        </ul>
+                    </div>
+                    <!-- Soft Skills -->
+                    <div class="skills-container">
+                        <h3 class="skills-titl">Soft Skills</h3>
+                        <ul class="skills-list">
+                            <li class="skills-list-item">Scrum</li>
+                            <li class="skills-list-item">Agile</li>
+                            <li class="skills-list-item">GTD</li>
+                            <li class="skills-list-item">Teamwork</li>
+                        </ul>
+                    </div>
                 </div>
             </aside>
         </div>
